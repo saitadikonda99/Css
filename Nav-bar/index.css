@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-bar ul{
+     list-style: none;
+     display: inline-flex;
+     margin-left: 80%;
+}
+
+.nav-bar li{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.nav-bar a {
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+
+.nav-bar a:hover {
+    color: rgb(234, 25, 189);
+}
+
