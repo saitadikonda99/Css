@@ -1,0 +1,42 @@
+
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+.container {
+    border: 2px solid black;
+    height: 80vh;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.links a{
+    text-decoration: none;
+    color: rgb(140, 110, 250);
+    margin-left: 80px;
+
+}
+.links {
+    display: flex;
+    align-items: center; /* Align items vertically at the center */
+    margin-left: 80px;
+}
+
+.links a:visited {
+        color: rgb(1, 6, 4);
+}
+
+.links a:hover {
+   color: rgb(8, 197, 255);
+   opacity: 4;
+}
+
+.links a:active {
+    color: red;
+}
+
